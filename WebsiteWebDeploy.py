@@ -22,8 +22,7 @@ with open("df.pkl","rb") as f:
 
 #Using NLP for tags to find similarity
 cv =CountVectorizer(max_features=5000,stop_words="english")
-vectors = cv.fit_transform
-(df["tags"]).toarray()
+vectors = cv.fit_transform(df["tags"]).toarray()
 mov_sim=cosine_similarity(vectors)
 
 
