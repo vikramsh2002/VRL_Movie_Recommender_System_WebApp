@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 st.title("Movie Recommender Systems")
 st.image("MyLogoLight.png")
-
+st.title("VRL")
 # combo box with a header
 
 header="Which Movie You are Watching"
