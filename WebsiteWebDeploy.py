@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-st.title("Movie Recommender Systems")
+st.title("Movie Recommender System")
 st.image("MyLogoLight.png")
 
 # combo box with a header
